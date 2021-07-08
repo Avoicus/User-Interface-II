@@ -62,12 +62,14 @@ h2{
     font-size:3.5rem;
 }
 
-.navContainer {
+.navContainer:hover {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: crimson;
+  color: darkslateblue;
 }
 /* .navContainer > .navElement {
     text-align: center;
